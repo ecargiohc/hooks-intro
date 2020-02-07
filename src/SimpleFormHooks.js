@@ -13,6 +13,7 @@ function SimpleFormHooks() {
             value={email}
             onChange={handleChange}
             />
+            <button onClick={()=> setEmail("")}>Submit</button>
         </div>
     )
 };
